@@ -1,0 +1,28 @@
+body{
+    background-color: brown;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+@media (max-width: 500px){
+    .container{
+        display: flex;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width:800px){
+    body{
+        background-color: green;
+    }
+}
