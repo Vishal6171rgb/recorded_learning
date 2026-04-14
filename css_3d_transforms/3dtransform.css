@@ -60,7 +60,7 @@
 }
 
 #scaleZ:hover{
-    transform:perspective(300px) scaleZ(5) rotateX(45deg); ;
+    transform:perspective(300px) scaleZ(5) rotateX(45deg);
 }
 
 #scale3D:hover{
